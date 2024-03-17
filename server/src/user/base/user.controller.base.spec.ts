@@ -18,6 +18,7 @@ import { UserService } from "../user.service";
 const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
+  admin: "true",
   createdAt: new Date(),
   firstName: "exampleFirstName",
   id: "exampleId",
@@ -27,6 +28,7 @@ const CREATE_INPUT = {
   username: "exampleUsername",
 };
 const CREATE_RESULT = {
+  admin: "true",
   createdAt: new Date(),
   firstName: "exampleFirstName",
   id: "exampleId",
@@ -37,6 +39,7 @@ const CREATE_RESULT = {
 };
 const FIND_MANY_RESULT = [
   {
+    admin: "true",
     createdAt: new Date(),
     firstName: "exampleFirstName",
     id: "exampleId",
@@ -47,6 +50,7 @@ const FIND_MANY_RESULT = [
   },
 ];
 const FIND_ONE_RESULT = {
+  admin: "true",
   createdAt: new Date(),
   firstName: "exampleFirstName",
   id: "exampleId",
